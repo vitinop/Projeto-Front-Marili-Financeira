@@ -1,0 +1,47 @@
+.headerPadrao{
+  color: #6c6c6c;
+  text-decoration: none;
+  font-size: 14px;
+}
+.navButton {
+  width: 88px;
+  height: 38px;
+  background-color: transparent;
+  border: solid rgba(188, 184, 139, 1) 1px;
+  cursor: pointer !important;
+  text-align: initial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navButton a {
+  color: #6c6c6c;
+  text-decoration: none;
+}
+.navButton a:hover{
+  color:#FFFFFF;
+}
+.navButton:hover {
+  background-color:rgba(188, 184, 139, 1);
+  cursor:pointer;
+  transition: color 0.4s ease 0s;
+  -webkit-transition: color 0.4s ease 0s;
+  -moz-transition: color 0.4s ease 0s;
+  -ms-transition: color 0.4s ease 0s;
+  -o-transition: color 0.4s ease 0s;
+}
+
+.navLink {
+  color: #6c6c6c;
+  text-decoration: none;
+}
+.navLink:hover{
+  color: #3e3d3d;
+  transition: color 0.4s ease 0s;
+  
+}
+
+.navItem{
+  margin-left: 24px;
+}
