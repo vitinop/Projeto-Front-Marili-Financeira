@@ -1,0 +1,11 @@
+.footerDefault{
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerCopyright{
+  text-align: center;
+  width: 50%;
+}
