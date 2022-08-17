@@ -5,6 +5,9 @@
   flex-direction: column;
   align-items: center;
 }
+.footerSocial a{
+  margin-right:10px;
+}
 .footerCopyright{
   text-align: center;
   width: 50%;
