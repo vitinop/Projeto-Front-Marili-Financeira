@@ -1,15 +1,36 @@
-.map-responsive{
-  overflow:hidden;
-  padding-bottom:26.25%;
-  position:relative;
-  height:0;
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+*{  
+  font-family: 'Didact Gothic', sans-serif;
+}
+.bodyContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainBanner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.clientFeedbackSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feedbackDescription{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.map-responsive iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
+.feedbackCards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
+.card{
+  width: 450px;
+  height: 300px;
+}
+
