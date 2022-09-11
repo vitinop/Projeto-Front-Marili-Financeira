@@ -48,8 +48,7 @@
 .footerSocial a:focus {
   color: #fbfbfb;
   text-decoration: none;
-  border-bottom: 1px dotted #fbfbfb;
-  ;
+  border-bottom: 1px solid #fbfbfb;
 }
 
 
