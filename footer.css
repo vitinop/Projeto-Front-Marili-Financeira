@@ -1,7 +1,7 @@
 .footerDefault {
   background-color: #bfc0b9;
   min-width: 90vw;
-  min-height: 70vh;
+  min-height: 55vh;
   display: inline-flex;
   flex-wrap: wrap;
   align-content: center;
@@ -12,10 +12,11 @@
 
 
 
-.footerContats {
 
+.footerContats {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .footerDefault h2 {
@@ -48,7 +49,7 @@
 .footerSocial a:focus {
   color: #fbfbfb;
   text-decoration: none;
-  border-bottom: 1px solid #fbfbfb;
+ 
 }
 
 
