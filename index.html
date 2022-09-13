@@ -5,32 +5,151 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./header.css" rel="stylesheet">
-  <link href="./footer.css" rel="stylesheet">
-
-  <link href="./index.css" rel="stylesheet">
+  <link href="./style/header.css" rel="stylesheet">
+  <link href="./style/footer.css" rel="stylesheet">
+  <link href="./style/index.css" rel="stylesheet">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
-  <title>Marili Réquia Sustentabilidade Financeira </title>
+  <title>Marili Réquia - Financeira </title>
 </head>
 
 <body>
   <header class="headerPadrao">
-   
+    <div class="logoSection">
+      <figure class="logoDefault">
+        <img src="./static/image/logomarcateste.png" alt="logomarca">
+      </figure>
+
+      <p> título qualquer</p>
+    </div>
+
+    <!--  MenuNovo -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse collapse-horizontal" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-target="#dropMenu"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul id="dropMenu" class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end MenuNovo -->
+
+
+    <!-- <div class="burgerMenu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="dropdown" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-dropdown dropdown-menu bg-transparent" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-target="#dropMenu"
+                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div id="dropMenu" class="dropdown-menu bg-transparent" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </nav>
+    </div> -->
   </header>
   <div class="bodyContent">
-    
     <section class="mainBanner">
-      <h1>O que é Sustentabilidade Financeira?</h1>
-      <h3>Bem vindo (a)!</h3>
-      <p>O valor da sustentabilidade financeira se traduz no uso dos recursos de forma equilibrada. Isso significa
-        objetivar a garantia da segurança financeira do seu patrimônio por meio do uso eficiente dos recursos que temos,
-        sempre com uma visão de longo prazo.</p>
+      <div id="carouselMain" class="carousel slide carousel-fade d-flex" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carouselInner">
+          <div class="carousel-item active">
+            <img src="https://i.pinimg.com/originals/11/1a/03/111a03133d14214539c96e0f657dff1a.png"
+              class="d-block w-100" alt="slider the batman">
+            <div class="carousel-caption d-md-block">
+
+
+            </div>
+          </div>
+
+          <div class="carousel-item ">
+            <img src="https://i.pinimg.com/originals/71/9e/80/719e80760999b4c355a723224120eb07.png"
+              class="d-block w-100" alt="slider - Dr stranho">
+            <div class="carousel-caption d-md-block">
+
+
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="https://cdna.artstation.com/p/assets/images/images/012/112/954/large/alex-ryan-1920x1080-wallpaper-desktop.jpg?1533105781"
+              class="d-block w-100" alt="slider homem aranha sem volta para casa">
+            <div class="carousel-caption d-md-block">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
     </section>
+
+    </section>
+
+
+
 
 
     <section class="clientFeedbackSection">
@@ -53,7 +172,7 @@
             Recomendo à todos olhar muito mais do que o valor da cotação, observem as coberturas.</p>
         </div>
 
-       
+
 
       </div>
     </section>
@@ -71,22 +190,42 @@
 
     <footer class="footerDefault">
       <h2>
-        Marili Réquia Sustentabilidade Financeira
+        Marili Réquia Financeira
       </h2>
+      <div class="contatsMain">
+        <div class="footerContats">
+          <div class="footerEmail">
+            <i class="bi bi-envelope"></i> negocios@marilirequia.com.br
+          </div>
 
-      <div class="footerEmail">
-        <i class="bi bi-envelope"></i> negocios@marilirequia.com.br
+          <div class="footerPhonesNumbers">
+            <i class="bi bi-telephone">+55 (51) 3366.3366 &nbsp;&nbsp; </i> |&nbsp;&nbsp;
+            <i class="bi bi-phone">+55(51)99951.5486 </i>
+          </div>
+
+          <div class="footerAdress">
+            <i class="bi bi-pin-map"></i> Rua Souza Lobo, 786 - Vila Jardim, Porto Alegre - RS, 91320-320
+          </div>
+        </div>
       </div>
 
-      <div class="footerPhonesNumbers">
-        <i class="bi bi-telephone"></i> +55 (51) 3366.3366 &nbsp;&nbsp;|&nbsp;&nbsp; <i class="bi bi-phone"></i> +55(51)
-        99951.5486
+      <div class="footerCopyright">
+
+        <p class="footerPropertyText">
+          A marca Marili Réquia é de propriedade da Flight Corretora de Seguros Ltda.
+        </p>
+        <div class="footerPropertyText">
+          Todas as operações realizadas pela Marili Requia Corretora de Seguros são executadas pela Flight Corretora de
+          Seguros Ltda,
+          autorizada a funcionar pela Susep, autarquia vinculada ao Ministério da Fazenda,
+          Órgão do governo brasileiro responsável pelo controle e fiscalização dos mercados de seguros.
+        </div>
+        <p class="footerPropertyMark">
+          ©2020 por MR Sustentabilidade Financeira
+        </p>
       </div>
 
-      <div class="footerAdress">
-        <i class="bi bi-pin-map"></i> Rua Souza Lobo, 786 - Vila Jardim, Porto Alegre - RS, 91320-320
-      </div>
-
+      <!-- Icones das social midias -->
       <div class="footerSocial d-flex flex-row">
         <div class="footerFacebook">
           <a target="_blank" href="https://www.linkedin.com/" class="social">
@@ -100,28 +239,18 @@
           <a target="_blank" href="https://www.linkedin.com/" class="social">
             <i class="bi bi-linkedin"></i></a>
         </div>
-      </div>
-      <div class="footerCopyright">
-        <p class="footerPropertyMark">
-          ©2020 por MR Sustentabilidade Financeira
-        </p>
-        <p class="footerPropertyText">
-          A marca Marili Réquia é de propriedade da Flight Corretora de Seguros Ltda.
-        </p>
-        <div class="footerPropertyText">
-          Todas as operações realizadas pela Marili Requia Corretora de Seguros são executadas pela Flight Corretora de
-          Seguros Ltda,
-          autorizada a funcionar pela Susep, autarquia vinculada ao Ministério da Fazenda,
-          Órgão do governo brasileiro responsável pelo controle e fiscalização dos mercados de seguros.
-        </div>
+
       </div>
   </div>
-  
+
   </footer>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
   </script>
+
+  <script src="./js/slider.js"></script>
 </body>
 
 </html>

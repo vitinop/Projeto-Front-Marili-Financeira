@@ -1,0 +1,107 @@
+.footerDefault {
+  background-color: #bfc0b9;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+.footerContats {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footerDefault h2 {
+  font-family: 'Didact Gothic', sans-serif;
+  text-align: center;
+}
+
+.footerPropertyText { 
+  text-align:center;  
+  margin: 10px;
+}
+
+
+/* Estilização social */
+
+.footerSocial a {
+  margin-right: 10px;
+  text-decoration: none;
+
+}
+
+
+.social {
+  margin: 10px;
+  font-size: 35px;
+  text-decoration: none;
+  color: #81847e;
+}
+
+.footerSocial a:hover,
+.footerSocial a:focus {
+  color: #fbfbfb;
+  text-decoration: none;
+  border-bottom: 1px solid #fbfbfb;
+  transition: 1s; 
+ 
+}
+
+
+/* Estilizando Copyright */
+.footerCopyright {
+  text-align: center;
+  width: 50%;
+}
+
+
+/* Responsivo footer */
+
+@media (max-width:390px) {
+  .footerDefault .footerSocial:not(.social) {
+    text-align: center;
+
+    padding-bottom:20px;
+  }
+}
+
+.footerContats{
+  padding: 12px;
+}
+.footerDefault .footerPropertyText {
+ min-width: 100%;
+}
+
+@media (max-width:430px) {
+  .footerDefault .footerPropertyText {
+    margin-bottom: 0;
+    text-align: center;
+
+  }
+}
+
+.footerPropertyText p {
+  opacity: 0.6;
+  margin-bottom: 0;
+  text-align: center;
+
+}
+
+.social {
+  text-align: center;
+
+}
+
+@media (max-width:991px) {
+  .footerDefault .social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
