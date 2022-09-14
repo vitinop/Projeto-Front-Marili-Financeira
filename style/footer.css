@@ -58,7 +58,7 @@
 /* Estilizando Copyright */
 .footerCopyright {
   text-align: center;
-  width: 50%;
+  max-width: 450px;
 }
 
 
