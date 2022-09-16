@@ -1,8 +1,9 @@
 .footerDefault {
-  background-color: #bfc0b9;
+  background-color: #81847e;
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
+  flex-wrap: wrap;
  
  
 }
@@ -21,65 +22,96 @@
 
 
 .contatsMain{
-
   display: flex;
   flex-wrap: wrap;
 
 }
 .footerContats {
-  
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   margin-left: 300px;
-  text-align: justify;
+  text-align: center;
 
 }
 
 .footerDefault h2 {
+
   font-family: 'Didact Gothic', sans-serif;
   text-align: center;
   font-weight: 400;
 }
 
 .footerPropertyText { 
-  text-align:center;  
-  margin: 10px;
+  text-align:justify;  
+  margin-left: 50px;
 }
 
 
 /* Estilização social */
 
+.footerSocial{
+  display: flex;
+  margin-left: 60px;
+}
+
 .footerSocial a {
-  margin-right: 10px;
   text-decoration: none;
 
 }
+.footerSocial i{
+  margin-left: 8px;
+}
+
 
 
 .social {
   margin: 10px;
   font-size: 30px;
   text-decoration: none;
-  color: #81847e;
+  color: #b9b78f;
 }
 
 .footerSocial a:hover,
 .footerSocial a:focus {
   color: #fbfbfb;
   text-decoration: none;
-  
-  transition: 1s; 
- 
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 
 /* Estilizando Copyright */
 .footerCopyright {
+  margin-top: 20px;
   text-align: center;
   max-width: 450px;
 }
 
+.footerCopyright h4{
+  font-weight: 400;
+}
+
+
+
+/* footer IMG */
+
+.footer2{
+  background-color: #dedfc6;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.footerImg{
+  display: flex;
+}
 
 /* Responsivo footer */
 
