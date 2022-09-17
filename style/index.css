@@ -20,27 +20,57 @@
 /* configuração do Banner */
 
 .mainBannerText{
+  color: #ffff;
   display: inline-block;
+  margin-top: 7rem;  
+  padding-top: 10rem;
+  line-height: 1.5rem;
 }
 .textEffect{
   overflow: hidden;
   white-space: nowrap;
   animation: typing 4.5s forwards;
   font-size: 1.6rem;
- 
 }
 
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
 }
-.banner_bg_grayscale{
-  min-height: 100vh;
-  width: 100vw;
-  background-image: url("../static/image/home/home.png");
-  background-size:cover;
+.mainBanner{
+  min-width: 100vw;
+  min-height: 70vh;
+  background-image:url('../static/image/home/home.png');
   background-repeat: no-repeat;
-  background-position: top;
+  background-position-y: top;
+  background-position-x: center;
+  background-size: cover;
+}
+.hero-centered {
+  position: relative;
+  background-size: cover;
+
+
+  background-repeat: no-repeat;
+  background-position-x: 85%;
+}
+.hero-centered:before, .hero-centered:after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.hero-centered.inverse:after {
+  background-image: linear-gradient(to top, #071d2b, rgba(7,29,43,0) 50%);
+}
+
+.banner_img .img{
+  z-index: -1;
 }
 
 
