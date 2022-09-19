@@ -8,8 +8,8 @@
 }
 
 .bodyContent {
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,7 @@
 /* configuração do Banner */
 
 .mainBannerText{
-  color: #ffff;
+  /* precioso editar o tamanho do texto para evitar quebra das margens */
   display: inline-block;
   margin-top: 7rem;  
   padding-top: 10rem;
@@ -69,9 +69,7 @@
   background-image: linear-gradient(to top, #071d2b, rgba(7,29,43,0) 50%);
 }
 
-.banner_img .img{
-  z-index: -1;
-}
+
 
 
 
