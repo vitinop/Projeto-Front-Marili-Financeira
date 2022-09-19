@@ -19,8 +19,8 @@
 
 /* configuração do Banner */
 
-.mainBannerText{
-  /* precioso editar o tamanho do texto para evitar quebra das margens */ 
+.mainBannerText {
+  /* precioso editar o tamanho do texto para evitar quebra das margens */
   text-align: center;
   padding-top: 10rem;
   font-size: 1.6rem;
@@ -30,24 +30,27 @@
 }
 
 
-.mainBanner{
+.mainBanner {
   display: flex;
   flex-direction: column;
   min-width: 100vw;
   min-height: 70vh;
-  background-image:url('../static/image/home/home.png');
+  background-image: url('../static/image/home/home.png');
   background-repeat: no-repeat;
   background-position-y: top;
   background-position-x: center;
   background-size: cover;
 }
+
 .hero-centered {
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 85%;
 }
-.hero-centered:before, .hero-centered:after {
+
+.hero-centered:before,
+.hero-centered:after {
   display: block;
   position: absolute;
   content: '';
@@ -58,8 +61,9 @@
   width: 100%;
   height: 100%;
 }
+
 .hero-centered.inverse:after {
-  background-image: linear-gradient(to top, #071d2b, rgba(7,29,43,0) 50%);
+  background-image: linear-gradient(to top, #071d2b, rgba(7, 29, 43, 0) 50%);
 }
 
 
@@ -169,12 +173,13 @@
 .motivosContainer {
   max-width: 750px;
 }
-.topicsContainer{
+
+.topicsContainer {
   display: flex;
   flex-direction: column;
 }
 
-.topic-item {  
+.topic-item {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -251,19 +256,20 @@
 /* Section Como funciona? */
 
 .howItWorksSection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  margin-bottom: 24px;
   width: 100%;
   background-color: #fafafa;
+  align-items: center;
 }
 
-.textHowItWorks p {
-  margin-left: 50px;
-  font-size: 40px;
-  text-align: justify;
-
-}
 
 .howItWorksTransition {
+  flex-direction: row;
   display: flex;
+  justify-content: center;
 }
 
 .howItWorksTransition a {
@@ -276,61 +282,44 @@
   font-size: 20px;
 }
 
-.listNumbers {
+.transitionSection {
+  font-size: 24px;
   display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  cursor: pointer;
 }
 
-.listNumbers ul {
+
+.CardsSectionHowItWorks {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  list-style: none;
+  align-items: center;
 }
 
-.listNumbers li {
-  margin-left: 50px;
-}
-
-
-.numberList {
-  background: rgba(212, 204, 251, 1);
-  box-shadow: 0px 6px 21px rgba(0, 0, 0, 0.2);;
-  backdrop-filter: blur(9.5px);
-  -webkit-backdrop-filter: blur(9.5px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  display: inline-block;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  font-weight: 600;
-  padding: 5px;
-  z-index: 2;
- 
-}
-
-.textCardList {
+.textCardHowItWorks {
   display: flex;
-  margin-top: 20px;
-  width: 220px;
-  height: 300px;
-  background: rgba(250, 250, 250, 1);
-  box-shadow: 0px 13px 21px rgba(0, 0, 0, 0.2);;
-  backdrop-filter: blur(19px);
-  -webkit-backdrop-filter: blur(19px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
+  margin: 24px;
+  width: 220px;
+  height: 300px;
+  box-shadow: 0px 13px 21px rgba(0, 0, 0, 0.2);
+  ;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 12px;
 }
 
-.textCardList h4{
+.textCardHowItWorks h4 {
   margin-top: 20px;
   font-weight: 400;
 }
 
-.textCardList i{
+.textCardHowItWorks i {
   font-weight: 100;
   margin-left: 10px;
   text-align: justify;
@@ -338,7 +327,7 @@
   color: #b9b78f;
 }
 
-.textCardList p{
+.textCardHowItWorks p {
   font-size: 14px;
   text-align: justify;
   text-overflow: 5px;
@@ -346,28 +335,32 @@
 
 
 /* Depoimento dos clientes */
-.clientFeedbackSection{
- display: flex;
+.feedBackPresentation p{
+  font-size: 2rem;
+}
+.clientFeedbackSection {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #d4ccbf;
 }
 
-.feedbackContainer{
-  width: 100vw;
-
+.feedbackContainer {
   display: flex;
-  background-color:  #d4ccbf;
   flex-wrap: wrap;
   flex-direction: row;
   align-content: center;
   justify-content: center;
   padding: 20px 15px 15px 15px;
- 
+
 }
 
-.feedbackCard{
+.feedbackCard {
   width: 300px;
   height: 200px;
   background: rgba(250, 250, 250, 1);
-  box-shadow: 0px 13px 21px rgba(0, 0, 0, 0.2);;
+  box-shadow: 0px 13px 21px rgba(0, 0, 0, 0.2);
+  ;
   backdrop-filter: blur(19px);
   -webkit-backdrop-filter: blur(19px);
   border-radius: 10px;
@@ -379,7 +372,7 @@
   -o-border-radius: 12px;
 }
 
-.feedbackText{
+.feedbackText {
   display: block;
   text-align: justify;
   padding: 12px;
@@ -399,16 +392,16 @@
 
   .numberList {
     margin-top: 50px;
-}
+  }
 
 
-  
-.textCardList{
-  width: 100%;
-  padding: 50px;
-}
 
-  
+  .textCardHowItWorks {
+    width: 100%;
+    padding: 50px;
+  }
+
+
 }
 
 /* Media dos cards*/
