@@ -106,31 +106,8 @@
 /* Responsivo footer */
 
 @media screen and (max-width:1024px) {
-
-.footerContats{
-  width: 100%;
- 
 } 
-
-
-.footerDefault .footerDefaultCopyright {
-  align-items: center;
-  justify-content: center;
-  
-
-}
-}
-
-
-
 
 @media (max-width:390px) {
 
-  .footerContats{
-    width: 100%;
-    margin: 20px;
-   
-  }
-
-  
-  }
+}

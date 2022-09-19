@@ -8,8 +8,8 @@
 }
 
 .bodyContent {
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -384,25 +384,11 @@
 
 
 @media screen and (max-width: 1024px) {
-
-  .listNumbers {
-    display: flex;
-    justify-content: center;
-  }
-
-  .numberList {
-    margin-top: 50px;
-  }
-
-
-
-  .textCardHowItWorks {
-    width: 100%;
-    padding: 50px;
-  }
-
+ 
 
 }
+
+
 
 /* Media dos cards*/
 
