@@ -1,12 +1,12 @@
 .footerDefault {
   padding: 20px;
-
   width: 100vw;
   background-color: #dedfc6;
   display: flex;
   flex-direction: column;
   align-items: center; 
 }
+
 /* Estilizando Copyright */
 .footerCopyright {
   max-width: 550px;
@@ -29,24 +29,6 @@
   height: auto;
   width: 240px;
 }
-
-
-
-
-
-.footerContats {
-  
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-
-}
-
-
-.footerPropertyText { 
-  text-align:justify;  
-}
-
 
 /* Estilização social */
 
@@ -84,13 +66,24 @@
 }
 
 
+.footerPropertyText { 
+  text-align:justify;  
+}
+
+
+
+.footerContats {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
 
 
 
 /* footer IMG */
 
 .footerImg{
-
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -102,12 +95,3 @@
 }
 
 
-
-/* Responsivo footer */
-
-@media screen and (max-width:1024px) {
-} 
-
-@media (max-width:390px) {
-
-}
