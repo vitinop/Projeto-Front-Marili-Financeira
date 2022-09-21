@@ -37,8 +37,17 @@
 }
 
 .dropdown-menu a{
-  color: black;
+  color: #ffff;
 }
-.dropdown-menu{
+#dropMenu{
   background-color: rgba(0, 0, 0, 0.85);
+}
+
+.offcanvas-body,.offcanvas-header{
+  color: #ffff;
+  background-color: rgba(0, 0, 0, 0.85);
+
+}
+.offcanvas {
+  max-width: 80%;
 }
