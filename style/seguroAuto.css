@@ -48,11 +48,10 @@
     width: 300px;
     color: white;
     background: rgba(184, 183, 143, 1);
-    box-shadow: 0 3px 3px 0 rgba(31, 38, 135, 0.37);
+    border: none;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 @media screen and(max-width: 1024px) {
@@ -65,20 +64,24 @@
     }
 }
 
+/* Section seguro ideal */
+
 .idealInsuranceSection{
+    width: 100%;
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    align-items: center;
 }
 
 .idealInsuranceSection h2{
     text-align: center;
 }
 
-.idealInsuranceSection p{
+.subText1{
     width: 800px;
     margin-top: 30px;
     font-size: 18px;
@@ -87,11 +90,26 @@
 
 .seguroCarroBox{
     display: flex;
-    width: 100vw;
+    max-width: 400px;
     height: 200px;
     background-color: #ccc;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+
 .carroBoxShield i{
-    font-size: 50px;
+    font-size: 100px;
 }
+
+.carroBoxText h3{
+    text-align: center;
+}
+
+.textCardInsurance{
+    max-width: 800px;
+    text-align: center;
+}
+
