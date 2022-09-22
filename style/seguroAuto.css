@@ -104,8 +104,23 @@
     text-align: center;
 }
 
+
 .textCardInsurance{
     max-width: 800px;
     text-align: center;
 }
 
+/* Who Can Hire Container */
+
+
+.whoCanHireContainer{
+    padding: 10px;
+    
+ 
+    
+}
+
+.btn-WhoCanHire{
+    margin-top: 20px;
+
+}
